@@ -1,0 +1,25 @@
+[project]
+name = "functional_library"
+version = "0.1.0"
+description = "Funções utilitárias de uso geral incluindo bot Discord, download de vídeo, e geração de ASCII art."
+authors = [ { name = "Jovenzinho" } ]
+readme = "readme.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["functional", "discord", "bot", "utilities", "yt-dlp", "pyfiglet"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pyfiglet>=0.8",
+    "discord.py>=2.0",
+    "yt-dlp>=2024.9.2",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
